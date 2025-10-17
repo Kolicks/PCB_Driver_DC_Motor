@@ -51,7 +51,8 @@ The project focuses on achieving an efficient, compact, and manufacturable desig
   - **Tented vias** for protection and manufacturing consistency.  
 - **Optimized gate loop design:**  
   - Gate drivers positioned close to MOSFETs to minimize loop inductance.  
-  - Bottom ground layer cleared in high-current paths to ensure controlled current direction and reduce EMI/EMC issues.  
+  - Bottom ground layer cleared in high-current paths to ensure controlled current direction and reduce EMI/EMC issues.
+- **Space between MOSFET**: For a 20x15 Mounted radiators space. 
 - **Microcontroller:** Reused **STM32F030K6T6** from previous projects for convenience, reusability, and familiarity with existing firmware.
 
 <p align="center">
