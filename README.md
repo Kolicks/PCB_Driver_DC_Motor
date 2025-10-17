@@ -56,7 +56,7 @@ The project focuses on achieving an efficient, compact, and manufacturable desig
 - **Microcontroller:** Reused **STM32F030K6T6** from previous projects for convenience, reusability, and familiarity with existing firmware.
 
 <p align="center">
-  <img src="images/PCB.png" alt="PCB Layout" width="600"/>
+  <img src="images/" alt="PCB Layout" width="600"/>
   <br>
   <em>Top layer routing and overall PCB layout (KiCad 9)</em>
 </p>
