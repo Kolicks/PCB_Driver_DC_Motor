@@ -4,7 +4,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/Kolicks/PCB_DC_Driver" target="_blank">
+  <a href="https://github.com/Kolicks/PCB_Driver_DC_Motor" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Visit%20Repo-blue?logo=github&style=for-the-badge" alt="GitHub Repo">
   </a>
 </p>
