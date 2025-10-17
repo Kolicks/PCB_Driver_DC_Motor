@@ -1,0 +1,168 @@
+(footprint "Potentiometer_Piher_PT-10-V10_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Piher PT-10-V10, http://www.piher-nacesa.com/pdf/12-PT10v03.pdf")
+	(tags "Potentiometer vertical Piher PT-10-V10")
+	(property "Reference" "REF**"
+		(at 5 -9.05 0)
+		(layer "F.SilkS")
+		(uuid "a5d496ae-ff6f-42af-8107-9325f16471d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Piher_PT-10-V10_Vertical"
+		(at 5 3.75 0)
+		(layer "F.Fab")
+		(uuid "40dac193-5eb0-4e0c-88ca-2865af5358c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a240d5c6-aeca-4d97-98e7-1617baba1d08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68a51163-f3f1-46ae-898c-28e11778db7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -0.108 -1.396)
+		(mid -0.258003 -2.50009)
+		(end -0.172 -3.611)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70ffcd96-a415-4f3c-bf33-70975e7b57de")
+	)
+	(fp_arc
+		(start 0.96 -6.019)
+		(mid 6.188516 -7.774112)
+		(end 10.11 -3.896)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0685daf3-8661-4eae-8963-10c88eedf920")
+	)
+	(fp_arc
+		(start 10.027 -1.1)
+		(mid 6.134659 2.486075)
+		(end 1.094 0.873)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7076f07f-38cf-4f5e-80a4-3377cd209668")
+	)
+	(fp_rect
+		(start -1.42 -8.05)
+		(end 11.42 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7e0ca8fd-2b9a-4f77-8e69-22f3a0864626")
+	)
+	(fp_circle
+		(center 5 -2.65)
+		(end 6.5 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "36c7a094-a763-410e-92fc-39f05498d1c1")
+	)
+	(fp_circle
+		(center 5 -2.65)
+		(end 10.15 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ce88acf7-41aa-47e1-8007-69f4ba9f6c0a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.05 -2.65 90)
+		(layer "F.Fab")
+		(uuid "73f3cf6d-df33-418a-b529-926cccbf4ce1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f21f18d-9208-4ae8-b1fb-fc840c8c207b")
+	)
+	(pad "2" thru_hole circle
+		(at 10 -2.5)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "29d1b78d-a714-4a35-949d-cd9edf84ba20")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -5)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ee9187b-86aa-4713-a1f2-17dc31d7e81e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Project_Library/12-PIHER_3D_PT10/PT10_PTC10/PT10_PTC10_10LV10.STEP"
+		(offset
+			(xyz 5 2.5 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 90)
+		)
+	)
+)
