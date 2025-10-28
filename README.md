@@ -72,3 +72,73 @@ The project focuses on achieving an efficient, compact, and manufacturable desig
 ---
 
 ## 🧩 Repository Structure
+PCB_DC_Driver/
+
+├── schematic/ # KiCad schematic files
+
+├── pcb_layout/ # KiCad PCB layout files
+
+├── gerbers/ # Gerber fabrication files
+
+├── images/ # Rendered visuals (3D, SCH, PCB)
+
+├── LICENSE # Hardware license (CERN-OHL-P v2.0)
+
+└── README.md # Project documentation
+
+
+---
+
+## 📜 License
+This hardware design is released under the **CERN Open Hardware License v2 – Permissive (CERN-OHL-P-2.0)**.  
+You are free to use, modify, and distribute this design, provided that:
+- The license is included with redistributions.
+- Proper credit is given to the original author.
+
+More info: https://cern-ohl.web.cern.ch/
+
+---
+
+## 👤 Author
+**Project:** PCB_DC_Driver  
+**Author:** [Kolicks]  
+**Toolchain:** KiCad 9  
+**Version:** 9.0  
+
+---
+
+## 🧱 Future Improvements
+
+- **Thermal Management:**  
+  - Integrate larger or multi-via thermal pads under the MOSFETs and drivers to enhance heat dissipation.  
+  - Evaluate adding **heatsinks or via arrays** for improved performance under sustained 10 A load.  
+
+- **Power Optimization:**  
+  - Consider using **2 oz copper** for better current capacity and lower resistive losses.  
+  - Evaluate a **four-layer design** with dedicated GND and VCC planes for improved EMI and power distribution.  
+
+- **Protection & Monitoring:**  
+  - Add **current sense resistors** and amplifiers for real-time feedback and overcurrent protection.  
+  - Implement **reverse polarity**, **undervoltage**, and **thermal shutdown** protection.  
+  - Include **snubber or flyback diode networks** to suppress switching transients.  
+
+- **Diagnostics & User Interface:**  
+  - Integrate **LED indicators** for power, fault, and enable states.  
+  - Add **test points** for gate and driver outputs for easier debugging and measurement.  
+
+- **Control Enhancements:**  
+  - Implement **PWM-based speed and direction control** in firmware.  
+  - Add **UART or CAN communication** for remote control and telemetry.  
+  - Enable **firmware upgradability** via USB or serial interface.  
+
+
+- **Mechanical & Assembly Improvements:**  
+  - Add **mounting supports for heatsinks or enclosures**.  
+  - Improve **silkscreen labeling** for connectors and test points.  
+  - Optimize **component placement** for serviceability and rework.  
+
+---
+
+⭐ *If you find this project useful or educational, please consider starring the repository and sharing feedback!*
+
+
