@@ -12523,6 +12523,17 @@
 		)
 	)
 	(gr_rect
+		(start 155.74 103.848)
+		(end 179.362 116.04)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1ea83df5-fa01-410c-880d-cc0d4533101c")
+	)
+	(gr_rect
 		(start 80.81 32.22)
 		(end 182.41 133.82)
 		(stroke
@@ -12587,6 +12598,45 @@
 		(fill no)
 		(layer "User.2")
 		(uuid "ed43e1d5-0f5a-4eb1-8a84-630bd61bc3c2")
+	)
+	(gr_text "R.CASAS"
+		(at 163.106 111.214 0)
+		(layer "F.Cu")
+		(uuid "709d342f-cb2c-41e2-8b4b-015436b68b46")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "OCTOBER 2025"
+		(at 158.788 114.516 0)
+		(layer "F.Cu")
+		(uuid "973e99a7-cf53-496f-9b51-e5cbcac11dbf")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PROTO_DC_DRIVER"
+		(at 157.01 107.658 0)
+		(layer "F.Cu")
+		(uuid "e74949ad-4713-41cc-822d-c34a64175184")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 142.265 114.765475)
